@@ -14,5 +14,5 @@ document.write( nome + "<br>" );
 document.write( idade + "<br>");
 document.write( altura + "<br>"); 
 
-console.log(idade * 365);
-document.write("<p style='color=red'>Você já viveu" + idade *365</p> );
+var dias = idade * 365;
+document.write("<p style='color:red;'>Você já viveu " + dias + " dias</p>");
